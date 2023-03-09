@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+form {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  height: max-content;
+  gap: 1rem;
+  padding: 3rem;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 1rem;
+}
+
+input,
+button {
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+}
+
+button {
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+small {
+  color: red;
+}

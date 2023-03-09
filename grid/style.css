@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 5rem;
+}
+
+.wrapper {
+  display: grid;
+  gap: 0.2rem;
+  width: 60vw;
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.2rem;
+  height: 5rem;
+}
+.side-title {
+  background-color: rgb(221, 221, 0);
+}
+.nav {
+  display: grid;
+  gap: 0.2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.nav > div {
+  background-color: pink;
+}
+
+.main {
+  display: grid;
+  gap: 0.2rem;
+  grid-template-columns: 6.5fr 1.5fr;
+}
+.content {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  gap: 0.2rem;
+}
+.post-title {
+  background-color: rgb(103, 161, 255);
+  height: 5rem;
+}
+.content-wrapper {
+  display: grid;
+  gap: 0.2rem;
+  grid-template-columns: 1fr 5fr;
+}
+.post-meta {
+  background-color: rgb(134, 255, 134);
+}
+.main-content-wrapper {
+  display: grid;
+  gap: 0.2rem;
+  grid-template-rows: 1fr 1fr;
+}
+.main-content {
+  background-color: gray;
+}
+.main-content-img {
+  background-color: yellow;
+}
+
+.aside {
+  display: grid;
+  gap: 0.2rem;
+  grid-template-rows: repeat(3, 1fr);
+}
+.side-bar {
+  background-color: orange;
+}
+.ads {
+  background-color: green;
+}
+.other {
+  background-color: rgb(183, 0, 183);
+}
+.footer {
+  height: 5rem;
+  background-color: rgb(104, 58, 58);
+}
